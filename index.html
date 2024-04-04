@@ -3,28 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
     <title>Academic Profile</title>
   </head>
   <body>
     <header class="basics">
+      <nav class="nav">
+        <button class="btn">HOME</button>
+        <button class="btn">BIO</button>
+        <button class="btn">ACD-INSIGHT</button>
+      </nav>
       <div class="header-text-box">
-        <nav class="nav">
-          <div class="nav-el">HOME</div>
-          <div class="nav-el">BIO</div>
-          <div class="nav-el">EDUDETAILS</div>
-        </nav>
-        <div class="name">Ephrem Ketachew</div>
+        <h1 class="name">EPHREM KETACHEW</h1>
         <div class="about-me">
           Ephrem Ketachew is a budding web designer and developer from Finote
           Selam, Ethiopia. Born on February 1, 2002, Ephrem is passionate about
           creating websites and learning the ropes of web design and
           development. With a focus on design aesthetics and coding
-          fundamentals, he is determined to grow in the field. Contact Ephrem at
-          ephremketachew@gmail.com
+          fundamentals, he is determined to grow in the field.
         </div>
+        <address class="contact">
+          <div class="link">
+            <a href="mailto:ephremketachew@mail.com">
+              <ion-icon class="icon" name="mail-outline"></ion-icon>
+            </a>
+          </div>
+          <div class="link">
+            <a href="https://github.com/Ephrem216">
+              <ion-icon class="icon" name="logo-github"></ion-icon>
+            </a>
+          </div>
+          <div class="link">
+            <a href="https://www.linkedin.com/in/ephrem-ketachew-6a01a7256/"/>
+              <ion-icon class="icon" name="logo-linkedin"></ion-icon>
+            </a>
+          </div>
+          <div class="link">
+            <a href="https://t.me/GameOver5">
+              <svg xmlns="http://www.w3.org/2000/svg"
+              class="icon-svg" 
+              width="32" height="32" fill="#ffffff" 
+              viewBox="0 0 256 256">
+                <path d="M228.88,26.19a9,9,0,0,0-9.16-1.57L17.06,103.93a14.22,14.22,0,0,0,2.43,27.21L72,141.45V200a15.92,15.92,0,0,0,10,14.83,15.91,15.91,0,0,0,17.51-3.73l25.32-26.26L165,220a15.88,15.88,0,0,0,10.51,4,16.3,16.3,0,0,0,5-.79,15.85,15.85,0,0,0,10.67-11.63L231.77,35A9,9,0,0,0,228.88,26.19Zm-61.14,36L78.15,126.35l-49.6-9.73ZM88,200V152.52l24.79,21.74Zm87.53,8L92.85,135.5l119-85.29Z"></path>
+              </svg>
+            </a>
+          </div>
+        </address>
       </div>
       <div class="header-img-box">
-        <img src="me.png" alt="My profile photo" />
+        <img class="photo" src="ephrem.png" alt="My profile photo" />
       </div>
     </header>
   </body>
