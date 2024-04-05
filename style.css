@@ -242,3 +242,8 @@ body {
   padding-bottom: 1rem;
   border-bottom: 1px solid #fff;
 }
+
+.bold {
+  color: #66a80f;
+  font-weight: bold;
+}
