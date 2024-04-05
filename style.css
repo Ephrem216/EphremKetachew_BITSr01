@@ -180,3 +180,65 @@ body {
   align-self: flex-start;
   width: 50%;
 }
+
+/*****************************/
+/* SECTION EDUCATION */
+/*****************************/
+
+.education {
+  /* background-image: linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6),
+    url(bg2.jpg)
+  ); */
+  background-image: url("bg2.jpg");
+  background-size: cover;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-image: linear-gradient(
+    to right top,
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.5)
+  );
+  padding: 10rem;
+}
+
+.second {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  padding-left: 5rem;
+}
+
+.third {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+.edu-el {
+  font-family: sans-serif;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.list-box {
+  padding-top: 2rem;
+  list-style: none;
+  color: #ced4da;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  font-size: 2rem;
+}
+
+.level {
+  color: #ffd43b;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #fff;
+}
