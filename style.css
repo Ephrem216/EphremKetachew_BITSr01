@@ -247,3 +247,74 @@ body {
   color: #66a80f;
   font-weight: bold;
 }
+
+/*****************************/
+/* SECTION  EXPLORE */
+/*****************************/
+
+.explore {
+  background-color: #fff9db;
+}
+
+.exp-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  justify-content: center;
+}
+
+.work-img {
+  width: 64%;
+}
+
+.work-img:hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+
+.project {
+  padding: 10rem 0 5rem 0;
+  color: #66a80f;
+  font-family: sans-serif;
+  font-size: 2.4rem;
+  align-self: flex-start;
+  width: 50%;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  border-bottom: 1px solid #ced4da;
+}
+
+.work-text {
+  /* justify-self: center; */
+  align-self: center;
+  line-height: 1.4;
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  width: 50%;
+  color: #333;
+  padding: 5rem 0;
+}
+
+.work-img-box {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  padding: 5rem 0;
+  overflow: hidden;
+}
+
+.link-text {
+  text-decoration: none;
+  color: #333;
+}
+
+/* .grid-item1 {
+  background-image: linear-gradient(
+      rgba(255, 249, 219, 0.563),
+      rgba(255, 249, 219, 0.563)
+    ),
+    url("img1.png");
+  background-size: cover;
+  width: 64%;
+} */
