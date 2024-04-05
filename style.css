@@ -135,3 +135,48 @@ body {
 /*****************************/
 /* SECTION BIO */
 /*****************************/
+.bio {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  background-color: #fff9db;
+}
+
+.who {
+  color: #66a80f;
+  padding: 10rem 0rem 0rem 0;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  font-family: sans-serif;
+  font-size: 2.4rem;
+}
+
+.bio-text-box {
+  padding: 0rem 10rem 10rem 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+}
+
+.bio-el {
+  display: flex;
+  gap: 20rem;
+  border-top: 1px solid #ced4da;
+  padding-top: 3rem;
+}
+
+.text {
+  line-height: 1.4;
+  font-family: sans-serif;
+  font-size: 1.6rem;
+  width: 50%;
+  color: #333;
+}
+
+.topic {
+  color: #333;
+  font-family: sans-serif;
+  font-size: 2rem;
+  align-self: flex-start;
+  width: 50%;
+}
