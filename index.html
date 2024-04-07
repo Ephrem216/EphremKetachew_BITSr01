@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" />
+    <link href="queries.css" rel="stylesheet" />
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -11,14 +12,43 @@
     <title>Academic Profile</title>
   </head>
   <body>
-    <header class="header sticky">
+    <header class="header">
       <nav class="nav">
         <button class="btn"><a href="#home" class="a-nav">HOME</a></button>
         <button class="btn"><a href="#bio" class="a-nav">BIO</a></button>
         <button class="btn"><a href="#edu" class="a-nav">EDUCATION</a></button>
         <button class="btn"><a href="#exp" class="a-nav">EXPLORE</a></button>
       </nav>
+
+      <button class="btn--mobile">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="svg-icon-mob open"
+          width="32"
+          height="32"
+          fill="#f7f7f7"
+          viewBox="0 0 256 256"
+        >
+          <path
+            d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"
+          ></path>
+        </svg>
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="svg-icon-mob close"
+          width="32"
+          height="32"
+          fill="#f7f7f7"
+          viewBox="0 0 256 256"
+        >
+          <path
+            d="M205.66,194.34a8,8,0,0,1-11.32,11.32L128,139.31,61.66,205.66a8,8,0,0,1-11.32-11.32L116.69,128,50.34,61.66A8,8,0,0,1,61.66,50.34L128,116.69l66.34-66.35a8,8,0,0,1,11.32,11.32L139.31,128Z"
+          ></path>
+        </svg>
+      </button>
     </header>
+
     <section class="basics" id="home">
       <div class="header-text-box">
         <h1 class="name">EPHREM KETACHEW</h1>
@@ -97,7 +127,7 @@
         </address>
       </div>
       <div class="header-img-box">
-        <img class="photo" src="ephrem2.png" alt="My profile photo" />
+        <img class="photo" src="ephrem.png" alt="My profile photo" />
       </div>
     </section>
 
@@ -190,14 +220,16 @@
         <div class="work-text grid-item2">
           <div>
             <a href="#" class="link-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
-              dolorum aperiam ducimus voluptatum maiores harum, facilis qui
-              iusto aspernatur repellendus culpa cum quo iure nisi
+              This game is my biggest project built using the Python framework
+              Pygame. It's an updated version of the classic Tetris game we used
+              to play on button phones. I designed and developed it innovatively
+              without internet connections in the first half of this year. The
+              game consists of over 1500 lines of code.
             </a>
           </div>
         </div>
         <div class="work-img-box grid-item1">
-          <a href="#">
+          <a href="#" class="img-pjt">
             <img
               class="work-img"
               src="img1.png"
@@ -207,7 +239,7 @@
         </div>
 
         <div class="work-img-box grid-item3">
-          <a href="#">
+          <a href="#" class="img-pjt">
             <img
               class="work-img"
               src="img2.png"
@@ -218,9 +250,9 @@
         <div class="work-text grid-item4">
           <div>
             <a href="#" class="link-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum,
-              dolorum aperiam ducimus voluptatum maiores harum, facilis qui
-              iusto aspernatur repellendus culpa cum quo iure nisi
+              I recreated the Omnifood website project during my HTML and CSS
+              learning journey with Jonas Schmedtmann. It's a responsive and
+              optimized site built using HTML, CSS, and a touch of JavaScript.
             </a>
           </div>
         </div>
@@ -296,5 +328,6 @@
         </div>
       </address>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
